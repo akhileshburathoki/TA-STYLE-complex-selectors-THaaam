@@ -267,6 +267,7 @@ body {
   background-color: var(--background);
   color: white;
   border: 1px solid transparent;
+  width: 210px;
 }
 .btn:hover {
   background: var(--background);
@@ -473,17 +474,46 @@ hr {
   left: -7px;
 }
 .arrow-right-second {
-  width: 0;
-  height: 0;
-  border-top: 1.7rem solid transparent;
+  width: 54px;
+  height: 54px;
+  /* border-top: 1.7rem solid transparent;
   border-bottom: 1.7rem solid transparent;
-  border-left: 1.7rem solid var(--background);
+  border-left: 1.7rem solid var(--background); */
+  transform: rotate(45deg);
+  background-color: white;
   position: relative;
-  top: -54px;
+  top: -91px;
   left: 176px;
+  border-bottom: 1px solid var(--background);
+}
+.arrow-right-third {
+  width: 54px;
+  height: 54px;
+  transform: rotate(45deg);
+  background-color: white;
+  position: relative;
+  top: -81px;
+  left: 185px;
+  border-left: 1px solid var(--background);
 }
 .triangles {
   position: relative;
+}
+.hide-1 {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 161px;
+  top: -183px;
+}
+.hide-2 {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 202px;
+  top: -168px;
 }
 .article-text a {
   padding-left: 3rem;
