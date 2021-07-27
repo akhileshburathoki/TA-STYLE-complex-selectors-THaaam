@@ -673,6 +673,9 @@ footer ul {
 footer li {
   margin-bottom: 1rem;
 }
+footer li a {
+  color: #314277;
+}
 .footer-list {
   margin-left: 5rem;
 }
